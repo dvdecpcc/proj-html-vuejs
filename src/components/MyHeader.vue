@@ -15,13 +15,19 @@
         <section class="imgWrapper">
             <div class="offers">
                 <div class="demos">
-                    <i class="fa-solid fa-folder"></i>
-                    <p>Demos</p>
+                    <a href="#">
+                        <i class="fa-solid fa-folder"></i>
+                        <p>Demos</p>
+                    </a>
+                    
                 </div>
                 <div class="sale">
-                    <span class="dollar">$</span>
-                    <span class="price">39</span>
-                    <p class="onSale">On Sale</p>
+                    <a href="#">
+                     <span class="dollar">$ </span>
+                     <span class="price">39</span>
+                     <p class="onSale">On Sale</p>
+                    </a>
+                    
                 </div>
             </div>
             <div class="title">
@@ -134,6 +140,8 @@ header{
             padding: 10px 15px;
             border: none;
             cursor: pointer;
+            font-size: .5rem;
+
         }
     }
     .offers{
@@ -144,6 +152,11 @@ header{
         align-items: flex-end;
         margin-top: 20px;
         margin-right: 20px;
+            
+        a{
+            text-decoration: none;
+            color: $mamba;
+        }
 
         .demos, .sale{
             background-color: $white;
@@ -151,14 +164,13 @@ header{
             box-shadow: 20px 20px 50px grey;
             padding: 10px;
             margin: 5px 10px;
-            color: $mamba;
-
+            
             i{
                 color: $outerSpace;
             }
             .dollar, .price{
                 color: $japaneseLaurel;
-                font-weight: bold;
+                font-weight: bolder;
             }
             .price{
                 font-size: .7rem;
