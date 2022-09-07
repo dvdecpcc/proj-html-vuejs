@@ -32,7 +32,7 @@ export default {
         position: relative;
 
         img{
-            margin: 10px;
+            margin: 15px;
         }
     }
     p{
