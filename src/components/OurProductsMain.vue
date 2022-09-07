@@ -41,7 +41,7 @@ export default {
                     name:"Strawberry Jam Cookies",
                     type:"Cookies, Pastries",
                     price:"24.00",
-                    weightPrice:""
+                    weightPrice:"62.00"
                 }
             ]
         }
@@ -52,7 +52,29 @@ export default {
 
 <style scoped lang="scss">
 @import "../styles/commonRules.scss";
+    .container{
+        display: flex;
+        align-items: flex-start;
+        margin-top: 100px;
+        justify-content: space-between;
+    }
+    .title{
+        max-width: 250px;
+        text-align: left;
+        margin-left: 100px;
+        
+        p{
+            color: $mamba;
+            font-size: .5rem;
+            margin-bottom: 20px;
+        }
+        h1{
+            font-size: 1rem;
+            color: $daisyBush;
+        }
+        button{margin-top: 30px;}
 
+    }
     .purpleBtn{
         background-color: $daisyBush;
         color: $white;
@@ -63,7 +85,7 @@ export default {
         font-size: .5rem;
         &:hover{    
         color: $daisyBush;
-        background-color: $white;
+        background-color: rgb(236, 232, 243);
         }
-    }    
+    }   
 </style>

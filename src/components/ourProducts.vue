@@ -4,7 +4,7 @@
     <div class="infos">
         <h3>{{itemName}}</h3>
         <p>{{itemType}}</p>
-        <h3>${{itemPrice}}  ${{itemWeightPrice}}</h3>
+        <h3>${{itemPrice}}    ${{itemWeightPrice}}</h3>
     </div>
   </div>
 </template>
@@ -27,10 +27,12 @@ export default {
     .card{
         position: relative;
         cursor: pointer;
+        display: inline-block;
+        margin: 20px;
         &:hover .infos{
             display: block;
         }
-        img{width: 100%;}
+        img{width: 300px;}
         .infos{
             position: absolute;
             display: none;
@@ -39,6 +41,14 @@ export default {
             left: 50%;
             color: $white;
             text-align: center;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 100%;
+            padding-top: 150px;
+            line-height: 40px;
+
+            h3{font-size: .9rem;}
+            p{font-size: .5rem;}
         }
     }
 

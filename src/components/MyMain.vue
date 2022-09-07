@@ -1,7 +1,6 @@
 <template>
   <div>
     <OurProductsMain/>
-    <p>ciao</p>
   </div>
 </template>
 
