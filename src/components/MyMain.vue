@@ -1,10 +1,14 @@
 <template>
-  <div></div>
+  <div>
+    <OurProductsMain/>
+  </div>
 </template>
 
 <script>
+import OurProductsMain from "./OurProductsMain.vue";
 export default {
   name: "MyMain",
+  components: OurProductsMain
 }
 </script>
 

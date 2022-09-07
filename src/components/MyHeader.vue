@@ -104,6 +104,8 @@ header{
             align-items: center;
             justify-content: space-around;
             flex-direction: row;
+            cursor: pointer;
+
 
             ul li{
                 font-size: .5rem;
@@ -141,7 +143,10 @@ header{
             border: none;
             cursor: pointer;
             font-size: .5rem;
-
+            &:hover{
+                background-color: $daisyBush;
+                color: $white;
+            }
         }
     }
     .offers{
