@@ -49,6 +49,7 @@ export default {
             top: 50%;
             left: 50%;
             text-align: center;
+            vertical-align: middle;
             color: $white;
             width: 550px;
             p{font-size: .5rem;}
