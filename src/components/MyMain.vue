@@ -1,6 +1,7 @@
 <template>
   <div>
     <OurProductsMain/>
+    <p>ciao</p>
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 import OurProductsMain from "./OurProductsMain.vue";
 export default {
   name: "MyMain",
-  components: OurProductsMain
+  components: {OurProductsMain,}
 }
 </script>
 

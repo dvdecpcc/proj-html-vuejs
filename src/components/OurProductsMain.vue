@@ -25,7 +25,7 @@
 import ourProducts from "./ourProducts.vue";
 export default {
     name: "OurProductsMain",
-    components: ourProducts,
+    components: {ourProducts,},
     data: function(){
         return{
             items: [
@@ -41,7 +41,7 @@ export default {
                     name:"Strawberry Jam Cookies",
                     type:"Cookies, Pastries",
                     price:"24.00",
-                    weightPrice:"62.00"
+                    weightPrice:""
                 }
             ]
         }
