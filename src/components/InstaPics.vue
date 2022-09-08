@@ -55,6 +55,7 @@ export default {
 <style scoped lang="scss">
 @import "../styles/commonRules.scss";
     .myPics{
+        margin-top: 100px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;

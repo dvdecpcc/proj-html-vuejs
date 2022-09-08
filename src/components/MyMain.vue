@@ -6,6 +6,7 @@
     <StoreProcess/>
     <StoreLoc/>
     <InstaPics/>
+    <MyOrders/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@ import OtherProducts from "./OtherProducts.vue";
 import StoreProcess from "./StoreProcess.vue";
 import StoreLoc from "./StoreLoc.vue";
 import InstaPics from "./InstaPics.vue";
+import MyOrders from "./MyOrders.vue";
 
 export default {
   name: "MyMain",
@@ -25,7 +27,8 @@ export default {
     OtherProducts,
     StoreProcess,
     StoreLoc,
-    InstaPics
+    InstaPics,
+    MyOrders
   }
 }
 </script>

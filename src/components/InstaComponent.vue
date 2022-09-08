@@ -17,7 +17,7 @@ export default {
 <style scoped lang="scss">
 @import "../styles/commonRules.scss";
     .instaPic{
-        width: calc(100% / 4);
+        width: calc(100% / 4 - 10px);
         img{
             width: 100%;
         }
